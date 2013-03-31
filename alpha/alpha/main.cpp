@@ -9,8 +9,9 @@ void printArr(int array[], int size) {
     
     for (j = 0; j < size; j++)
         
-        cout << " " << array[j];
+    cout << " " << array[j];
     cout << endl;
+    
 }
 
 void insertionSort(int arr[], int length) {
