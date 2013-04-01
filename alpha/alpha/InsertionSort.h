@@ -1,11 +1,11 @@
-
-
-#include <iostream>
-using namespace std;
-
 #pragma once
 #ifndef alpha_InsertionSort_h
 #define alpha_InsertionSort_h
+
+#pragma once
+#include <iostream>
+using namespace std;
+
 
 void printArr(int array[], int size) {
     
@@ -15,7 +15,7 @@ void printArr(int array[], int size) {
     
     for (j = 0; j < size; j++)
         
-        cout << " " << array[j];
+    cout << " " << array[j];
     cout << endl;
     
 }
@@ -39,7 +39,5 @@ void insertionSort(int arr[], int length) {
         printArr(arr, 10);
     }
 }
-
-
 
 #endif
